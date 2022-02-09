@@ -1,4 +1,4 @@
-const { CommandInteraction, Client } = require(`discord.js`);
+ /* const { CommandInteraction, Client } = require(`discord.js`);
 
 module.exports = {
   name: "emitt",
@@ -17,15 +17,17 @@ module.exports = {
         {
           name: "guildMemberRemove",
           value: "guildMemberRemove",
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
   /**
    *
    * @param {CommandInteraction} interaction
    * @param {Client} client
    */
+
+/*
   execute(interaction, client) {
     const choices = interaction.options.getString("member");
 
@@ -36,7 +38,7 @@ module.exports = {
           interaction.reply({ content: "Emitted the event.", ephemeral: true });
         }
         break;
-      case "guildMemberRemove":
+        case "guildMemberRemove":
         {
           client.emit("guildMemberRemove", interaction.member);
           interaction.reply({ content: "Emitted the event.", ephemeral: true });
@@ -45,3 +47,4 @@ module.exports = {
     }
   },
 };
+*/
