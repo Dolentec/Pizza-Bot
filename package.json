@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "consola": "^2.15.3",
+    "discord.js": "^13.6.0",
+    "glob": "^7.2.0",
+    "mongoose": "^6.1.8",
+    "opusscript": "^0.0.8"
+  },
+  "name": "pizza-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Fun",
+    "Commands"
+  ],
+  "author": "Dolentec",
+  "license": "ISC",
+  "description": ""
+}
