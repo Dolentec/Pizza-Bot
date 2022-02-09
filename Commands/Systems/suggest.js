@@ -6,7 +6,7 @@ module.exports = {
     options: [
         {
             name: "type",
-            description: "Select the type",
+            description: "Select the type.",
             required: true,
             type: "STRING",
             choices: [
