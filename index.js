@@ -6,7 +6,7 @@ const { Token } = require("./config.json");
 client.commands = new Collection()
 
 client.on('ready', () => {
-    console.log(`✅ Logged in as ${client.users.tag}`);
+    console.log(`✅ Logged in as ${client.user.tag}`);
   })
 
 require("./Handlers/Events")(client);
