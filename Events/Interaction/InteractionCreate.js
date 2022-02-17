@@ -20,7 +20,7 @@ module.exports = {
                 ]
             }) && client.commands.delete(interaction.commandName);
 
-            command.execute(client, interaction);
+            command.execute(interaction, client);
 
         }
     }

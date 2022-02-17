@@ -12,15 +12,15 @@ module.exports = {
             choices: [
                 {
                     name: "Command",
-                    values: "Command"
+                    value: "Command"
                 },
                 {
                     name: "Event",
-                    values: "Event"
+                    value: "Event"
                 },
                 {
                     name: "System",
-                    values: "System"
+                    value: "System"
                 },
             ]
         },
