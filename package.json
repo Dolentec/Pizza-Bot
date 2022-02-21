@@ -5,13 +5,15 @@
     "discord.js": "^13.6.0",
     "glob": "^7.2.0",
     "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15",
     "opusscript": "^0.0.8"
   },
   "name": "pizza-bot",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon index.js"
   },
   "keywords": [
     "Discord",

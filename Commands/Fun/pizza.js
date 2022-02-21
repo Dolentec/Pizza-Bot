@@ -5,10 +5,9 @@ module.exports = {
     name: "pizza",
     description: "Pizza Time.",
     /**
-     * @param {Client} client 
-     * @param {CommandInteraction} interaction
+     * @param {CommandInteraction} interaction 
      */
-    async execute(client, interaction) {
+    async execute(interaction) {
 
             const embed = new discord.MessageEmbed()
                 .setDescription("It's Pizza Time!")
