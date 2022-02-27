@@ -10,7 +10,7 @@ module.exports = {
      * @param {CommandInteraction} interaction 
      * @param {Client} client 
      */
-    async execute(client, interaction) {
+    async execute(interaction, client) {
 
         const Response = new MessageEmbed()
 

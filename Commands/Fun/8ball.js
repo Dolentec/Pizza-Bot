@@ -1,5 +1,5 @@
 const discord = require('discord.js');
-const balloptions = require('./../lists/8ballOptions.json');
+const balloptions = require('./../../lists/8ballOptions.json');
 const { Client, CommandInteraction, MessageEmbed } = require('discord.js');
 
 module.exports = {
